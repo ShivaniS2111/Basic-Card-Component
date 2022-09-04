@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: hsla(215, 10%, 76%, 0.2);
+    display: flex;
+    justify-content: center;
+    /* horizontal alignment */
+    align-items: center;
+    /* vertical alignment */
+    /* on setting max width and heigth, centering won't work */
+}
+.card{
+    background: #FFFDFD;
+    width: 70vw;
+    height: 55vh;
+    display: flex;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.wallpaper{
+    width: 25vw;
+    height: 55vh;
+    object-fit: cover;
+}
+.profile{
+    width: 45vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    margin: 2.5vw 2.5vw 0vw 2.5vw;
+    padding-left: 1vw;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: #575755;
+    font-weight: 600;
+}
+.text{
+    color: #989B9F;
+    padding-bottom: 30px;;
+}
+.user_profile{
+    border-top: 1px solid #BDC2C9;
+    padding: 2.5vw 2.5vw 0vw 3.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    position: absolute;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+.user-info{
+    margin-top: 4px;
+    line-height: 1.2;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #575755;
+}
+.place{
+    color: #989B9F;
+}
+.share_icon{
+    position: relative;
+    top: 0;
+    left: 90%;
+}
+.share_white{
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+}
+.share_color{
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    width: 190px;
+    height: 40px;
+    background: #626860;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: hsla(110, 20%, 88%, 0.9);
+    position: relative;
+    top: -51%;
+    right: -42%;
+    opacity: 0;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-top: 10px solid #626860;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    top: -10%;
+    right: 3.5%;
+    opacity: 0;
+}
+.svgs{
+    width: 80px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
